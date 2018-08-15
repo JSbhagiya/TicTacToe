@@ -20,8 +20,8 @@
             android:layout_marginRight="12dp"
             android:layout_marginTop="12dp"
             android:text="Player 1"
-            android:textSize="20sp"
             android:textColor="@android:color/white"
+            android:textSize="20sp"
             android:textStyle="bold |italic" />
 
         <TextView
@@ -41,8 +41,8 @@
             android:layout_marginRight="12dp"
             android:layout_marginTop="12dp"
             android:text="Player 2"
-            android:textSize="20sp"
             android:textColor="@android:color/white"
+            android:textSize="20sp"
             android:textStyle="bold |italic" />
 
         <TextView
@@ -56,13 +56,13 @@
             android:textSize="29sp" />
 
         <Button
+            android:id="@+id/buttonnewgame"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:layout_margin="20dp"
             android:text="RESET GAME"
-            android:textStyle="bold"
-            android:id="@+id/buttonnewgame"/>
+            android:textStyle="bold" />
 
 
     </RelativeLayout>
@@ -84,7 +84,8 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="#FFF3E0"
-                android:textSize="55sp"/>
+                android:textSize="55sp" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="8dp"
@@ -97,7 +98,8 @@
                 android:layout_weight="1"
                 android:background="#FFF3E0"
                 android:textSize="55sp"
-                tools:text=""/>
+                tools:text="" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="8dp"
@@ -112,91 +114,100 @@
                 android:textSize="55sp" />
 
 
-
-
         </LinearLayout>
+
         <View
             android:layout_width="8dp"
             android:layout_height="match_parent"
-            android:background="@android:color/darker_gray"/>
+            android:background="@android:color/darker_gray" />
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="vertical">
+
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
                 android:id="@+id/Button01"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
                 android:background="#FFF3E0"
-                android:textSize="55sp"/>
+                android:textSize="55sp" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="8dp"
                 android:background="@android:color/darker_gray" />
+
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
                 android:id="@+id/Button11"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
                 android:background="#FFF3E0"
-                android:textSize="55sp"/>
+                android:textSize="55sp" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="8dp"
                 android:background="@android:color/darker_gray" />
+
             <Button
+                android:id="@+id/Button21"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:id="@+id/Button21"
                 android:background="#FFF3E0"
-                android:textSize="55sp"/>
+                android:textSize="55sp" />
         </LinearLayout>
+
         <View
             android:layout_width="8dp"
             android:layout_height="match_parent"
-            android:background="@android:color/darker_gray"/>
+            android:background="@android:color/darker_gray" />
+
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:orientation="vertical">
+
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
                 android:id="@+id/Button02"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
                 android:background="#FFF3E0"
-                android:textSize="55sp"/>
+                android:textSize="55sp" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="8dp"
                 android:background="@android:color/darker_gray" />
+
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1"
                 android:id="@+id/Button12"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
                 android:background="#FFF3E0"
-                android:textSize="55sp"/>
+                android:textSize="55sp" />
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="8dp"
                 android:background="@android:color/darker_gray" />
+
             <Button
+                android:id="@+id/Button22"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
-                android:id="@+id/Button22"
                 android:background="#FFF3E0"
-                android:textSize="55sp"/>
+                android:textSize="55sp" />
         </LinearLayout>
-
-
 
     </LinearLayout>
-
 
 </LinearLayout>
